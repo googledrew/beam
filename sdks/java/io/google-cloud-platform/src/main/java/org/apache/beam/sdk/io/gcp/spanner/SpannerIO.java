@@ -311,7 +311,7 @@ import org.slf4j.LoggerFactory;
  *
  * <p>Note that the <a
  * href="https://cloud.google.com/spanner/quotas#limits_for_creating_reading_updating_and_deleting_data">maximum
- * size of a single transaction</a> is 20,000 mutated cells - including cells in indexes. If you
+ * size of a single transaction</a> is 80,000 mutated cells - including cells in indexes. If you
  * have a large number of indexes and are getting exceptions with message: <tt>INVALID_ARGUMENT: The
  * transaction contains too many mutations</tt> you will need to specify a smaller number of {@code
  * MaxNumMutations}.
